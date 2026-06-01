@@ -99,7 +99,7 @@ elif menu == "Update Student":
 
     mssid = st.text_input("Enter MSS ID")
     name = st.text_input("Enter New Name")
-    batch = st.number_input("Enter New Batch", min_value=2000, max_value=2100)
+    batch = st.number_input("Enter New Batch", min_value=1, max_value=2100)
     dist = st.text_input("Enter New DIST")
 
     if st.button("Update Student"):
